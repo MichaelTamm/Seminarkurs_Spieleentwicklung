@@ -1,39 +1,35 @@
-# Projekt-Zwischenbericht & Reflexion: [Vorname Nachname]
-**Projekt / Spiel:** [Name des Spiels]  
-**Rolle im Team:** [z. B. Skripte/Mechanik, Grafik/Animation, Audio, Dialoge/Story, Leveldesign]
+# ToonForest-Reflexion: [Moritz Günther]
+**Projekt / Spiel:** [Toonforest]  
+**Rolle im Team:** [Koordination, Logik, Leveldesign, 3D (HSM und SSM), 2D(Texturen und Materialien, keine Grafiken)]
 
 ---
 
 ### 1. Meine Ziele (bis zu den Herbstferien)
 * Was waren deine persönlichen Ziele für dein Spiel bis zu den Herbstferien?
 
-Tipp: Diejenigen, die mit GitHub Issues gearbeitet haben, können sich ganz einfach eine Liste ihrer Issues anzeigen lassen,
-indem sie auf der GitHub-Site Ihres Projekts auf "Issues" klicken und im Suchfeld `is:issue assignee:<GitHubUserName>` eingeben,
-also zum Beispiel: [Projekt ToonForest, LeLuErna](https://github.com/VerbalJungle/ToonForest/issues?q=is%3Aissue+assignee%3ALeLuErna)
-
+Stabile 60FPS 
+Erste 2 NPCs
+Fertiges Inventar- und Handelssystem 
+Custom Dialog-System basierend auf dem UE5 Graph-Editor
 ### 2. Vorgehensweise, Stand der Umsetzung & konkreter Eigenanteil
-* Wie bist du vorgegangen, um deine Ziele zu erreichen?
-* Was waren deine Arbeitsergebnisse? Welche konkreten Artefakte stammen von dir? (z. B. Dateinamen von Skripten, Nodes, Grafiken, Texten oder Audio-Dateien im GitHub-Repo verlinken/nennen)
-* Zu wie viel Prozent hast du deine Ziele erreicht?
+* Ich habe Probleme analysiert, bspw. habe ich Messdaten zur Performance genommen und diese jeweils nach Änderungen abgeglichen
+* Komplette Logik, Leveldesign bis auf inneres eines Hauses, beide NPCs (Modelle, Dialoge, Logik), Materialien(stilisiertes Holz), Aufbau des Github Repos und der Aufgabenverteilung, Performance-Optimierung via Abstrahierung der Materialien und Nanite und Weiteres
+* ~85%
 
 ### 3. Herausforderungen
-* Wenn du ein oder mehrere Ziele nicht erreicht hast (was kein Problem ist!), was waren die Gründe dafür?
-* Auf welche unerwarteten Probleme oder Hürden bist du gestoßen?
-* Wie hast du versucht, diese Probleme zu lösen? (z. B. Recherche, Umplanung, Verwerfen von Ideen, Rückgriff auf andere Tools/Dokumentationen)
+* Ich habe noch keine stabile Windows Version, da es auf der VM nicht kompiliert und ich aktuell keine SSD für Dual Boot opfern kann
+* Teilweise hatte ich Probleme mit den Linux-Sound-Treibern da diese nach dem bauen des projekts nicht mehr funktioniert haben
+* Ich habe recherchiert und auf Reddit einen Nutzer gefunden der das gleiche Problem hatte und es mit seiner Lösung auch lösen können, es lag an einer Abhängigkeit die durch eine ungelöste Race Condition in der UE5 aus der GameInstance gefallen war
 
 ### 4. Hilfsmittel & Tools
-* Welche Software, Bibliotheken, Vorlagen oder KI-Tools (z. B. ChatGPT, Claude) hast du verwendet?
-* An welcher Stelle hast du KI eingesetzt und was genau war dein eigener Anteil daran (z. B. Code angepasst, Fehler gesucht, nur Ideen geholt)?
+* Offizielle UE5 Docs, Youtube, Gemini
+* Gemini und vor allem Gemma (4 26B MoE) haben mir bei der Analyse von Messwerten der Perfomance geholfen und diese jeweils eingeordnet 
 
 ### 5. Selbstreflexion
-* Wie beurteilst du deinen eigenen Arbeitseinsatz und Lernzuwachs im Vergleich zum Beginn des Kurses?
-* Was ist dir gut gelungen, was würdest du wieder so machen?
-* Was würdest du in Zukunft anders machen wollen?
-* Was würdest du nicht noch einmal so machen wollen? Was waren Fehler, die du gemacht hast und was hast du daraus gelernt?
+* Gut da ich mich gerade beim bau neuer Werkzeuge und der Performance-Optimierung verbessert habe. Zudem habe ich Github von einer neuen Seite als Koordinator kennen gelernt
+* NPC-Bau und Performance Optimierung haben Spaß gemacht
+* Von Anfang an Materialien simplifizieren statt über lange static switch Ketten zu lösen
 
 ### 6. Feedback
-* Wie würdest du die Zusammenarbeit im Team beurteilen? Was war gut, was könnte verbessert werden?
-* Wie würdest du die Betreuung durch deinen Lehrer beurteilen? Was war gut, was könnte verbessert werden?
-
-Hinweis: Deine Antworten für den Abschnitt "6. Feedback" haben keinerlei Einfluss auf deine Note,
-sondern dienen ausschließlich der Verbesserung des Kurses.
+* Allgemein gut, niemand hat sich völlig entzogen und Kommunikationsprobleme wurden gelöst dennoch war es teilweise frustrierend wenn Kritik nicht angesprochen wurde und dann im Unterricht trotz begrenzter Zeit aufkam 
+* Die Betreuung war gut und durch Kooperation gezeichnet, auch das Verständnis unser aktuelles Projekt fortführen zu wollen habe ich sehr geschätzt. 
